@@ -31,7 +31,7 @@ import {
     TableHeader,
     TableRow,
 } from '@/components/ui/table';
-import { getBooks } from '@/http/api';
+import { getBooks } from '@/api/api';
 import { Book } from '@/types';
 import { useQuery } from '@tanstack/react-query';
 import { CirclePlus, MoreHorizontal } from 'lucide-react';

@@ -21,7 +21,7 @@ import {
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useForm } from 'react-hook-form';
-import { createBook } from '@/http/api';
+import { createBook } from '@/api/api';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { LoaderCircle } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
