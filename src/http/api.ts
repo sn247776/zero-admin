@@ -2,7 +2,6 @@ import axios from 'axios';
 import useTokenStore from '@/store';
 
 const api = axios.create({
-    // todo: move this value to env variable.
     baseURL: 'http://localhost:5000',
     headers: {
         'Content-Type': 'application/json',
